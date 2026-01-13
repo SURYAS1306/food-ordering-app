@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
-@Component
+//@Component
 @RequiredArgsConstructor
 public class UserDetailsServiceIml implements UserDetailsService {
     private final UserJpaRepository userJpaRepository;
