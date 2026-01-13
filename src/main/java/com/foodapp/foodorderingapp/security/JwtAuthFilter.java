@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
-@Component
+//@Component
 @AllArgsConstructor
 public class JwtAuthFilter extends OncePerRequestFilter {
     private JwtService jwtService;
